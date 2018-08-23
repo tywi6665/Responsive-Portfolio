@@ -22,7 +22,7 @@ header {
 
 #middle {
     background-color: #ffffff;
-    width: 960px;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 100px;
     padding: 25px;
@@ -64,7 +64,7 @@ img {
 
 
 .container {
-    width: 1000px;
+    width: 62%;
     margin: 0 auto;
     position: relative;
 }
@@ -179,40 +179,56 @@ h2 {
 }
 
 @media screen and (max-width: 980px) {
-    .container, #footer {
+    #wrapper {
         width: 100%;
+    }
+    
+    .container {
+        width: 65%;
       }
  
-      .middle {
-          width: 100%;
-          padding: 20px;
-      }
+    .middle {
+        width: 80%;
+        padding: 20px;
+    }
   }
 
 @media screen and (max-width: 768px) {
-    .container, #footer {
-       width: 100%;
-     }
-
-     .middle {
-         width: 100%;
-         padding: 20px;
-     }
- }
-
- @media screen and (max-width: 640px) {
-    .container, #footer {
+    #wrapper {
         width: 100%;
+    }
+
+    nav li {
+        margin-left: 30px;
+    }
+    
+    .container {
+        width: 65%;
       }
  
-      .middle {
-          width: 100%;
-          padding: 20px;
-      }
-
-    .container {
-        position: static;
+    .middle {
+        width: 80%;
+        padding: 20px;
     }
-}
+  }
 
+
+ @media screen and (max-width: 640px) {
+    #wrapper {
+        width: 100%;
+    }
+
+    nav li {
+        margin-left: 20px;
+    }
+    
+    .container {
+        width: 67%;
+      }
+ 
+    .middle {
+        width: 80%;
+        padding: 20px;
+    }
+  }
   
