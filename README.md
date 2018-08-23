@@ -20,5 +20,6 @@ The objective of this assignment was to delve into HTML and CSS and design a fun
 * CSS
 * HTML
 
-###Deployed Link
+###Deployed Link:
+
 https://tywi6665.github.io/Responsive-Portfolio
