@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background-color: #ffffff;
+    background-color: #EFEFEF;
     width: 100%;
     border-bottom-style: solid;
     border-color: lightgrey;
@@ -21,7 +21,7 @@ header {
 }
 
 #middle {
-    background-color: #ffffff;
+    background-color: #EFEFEF;
     width: 60%;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -61,7 +61,7 @@ img {
 
 .footer-link {
     margin-left: 10px;
-    color: #ffffff
+    color: #EFEFEF
 }
 
 .repo-link {
@@ -279,7 +279,7 @@ a {
     }
 
     .picture {
-        margin-left: 50px;
+        margin-left: 15%;
     }
 
     .icons {
@@ -297,17 +297,19 @@ a {
     }
     
     .container {
-        width: 110%;
+        width: 105%;
     }
  
     ul, .logo {
         display: block;
     }
+
     
     .logo {
         width: 85%;
         text-align: center;
     }
+
 
     nav {
         float: none;
