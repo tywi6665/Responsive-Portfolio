@@ -298,16 +298,21 @@ h2 {
         width: 100%;
     }
 
-    /* p {
-        width: 90%;
-    } */
-
     .picture:nth-child(even) {
         margin-right: 0px;
     }
 
     .picture {
-        margin-left: 50px;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        height: 100%;
+        width: 100%;
+    }
+
+    h2 {
+        height: 15%;
+        width: 100%;
+        bottom: 30px;
     }
 }
   
