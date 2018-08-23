@@ -46,22 +46,35 @@ img {
 }
 .foot1 {
     background-color: #4aaaa5;
-    height: 5px;
+    height: 10px;
 }
 
 .foot2 {
     background-color: #666666;
-    height: 45px;
+    height: 65px;
+}
+
+.icons {
+    position: absolute;
+    left: 45%;
+}
+
+.footer-link {
+    margin-left: 10px;
+    color: #ffffff
+}
+
+.repo-link {
+    color: #666666;
+    padding-left: 15px;
 }
 
 #footer {
-    height: 50px;
+    height: 75px;
     width: 100%;
     position: fixed;
     bottom: 0;
 }
-
-
 
 .container {
     width: 62%;
@@ -179,6 +192,11 @@ h2 {
     padding-top: 17px;
 }
 
+a {
+    text-decoration-line: none;
+    color: #fff;
+}
+
 @media screen and (max-width: 980px) {
     #wrapper {
         width: 100%;
@@ -199,6 +217,10 @@ h2 {
 
     .picture {
         margin-left: 12px;
+    }
+
+    .icons {
+        left: 43%;
     }
 }
 
@@ -226,6 +248,10 @@ h2 {
 
     .picture {
         margin-left: 90px;
+    }
+
+    .icons {
+        left: 41%;
     }
 }
 
@@ -255,9 +281,13 @@ h2 {
     .picture {
         margin-left: 50px;
     }
+
+    .icons {
+        left: 38%;
+    }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     #wrapper {
         width: 100%;
     }
@@ -267,7 +297,7 @@ h2 {
     }
     
     .container {
-        width: 100%;
+        width: 110%;
     }
  
     ul, .logo {
@@ -281,7 +311,7 @@ h2 {
 
     nav {
         float: none;
-        margin-left: 65px;
+        margin-left: 25%;
     }
 
     img {
@@ -313,6 +343,10 @@ h2 {
         height: 15%;
         width: 100%;
         bottom: 30px;
+    }
+
+    .icons {
+        left: 35%;
     }
 }
   
