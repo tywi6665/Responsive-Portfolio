@@ -158,11 +158,12 @@ button {
     display: inline-block;
     position: relative;
     margin-right: 25px;
+    margin-left: 25px;
     margin-bottom: 70px;
 }
 
 .picture:nth-child(even) {
-    margin-right: 200px;
+    margin-right: 25px;
 }
 
 h2 {
@@ -191,7 +192,15 @@ h2 {
         width: 80%;
         padding: 20px;
     }
-  }
+
+    .picture:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    .picture {
+        margin-left: 12px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     #wrapper {
@@ -210,7 +219,15 @@ h2 {
         width: 80%;
         padding: 20px;
     }
-  }
+
+    .picture:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    .picture {
+        margin-left: 90px;
+    }
+}
 
 
  @media screen and (max-width: 640px) {
@@ -230,5 +247,13 @@ h2 {
         width: 80%;
         padding: 20px;
     }
-  }
+
+    .picture:nth-child(even) {
+        margin-right: 0px;
+    }
+
+    .picture {
+        margin-left: 50px;
+    }
+}
   
